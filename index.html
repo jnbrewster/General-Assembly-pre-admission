@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About me</title>
+    <!-- refactor <style> into external css file-->
+    <!-- Add a a display:block to a smaller display media query -->
+    <!-- change list text to small monochrome icons that alter state on mouseover and onclick -->
+    <style>
+      * {
+        font-family: 'Helvetica', Times, serif;
+        text-align: center;
+      }
+      body {
+        padding-left: 8%;
+        padding-right: 8%;
+      }
+      header {
+        text-align: center;
+        background:  url('assets/banner.png');
+        background-size: cover;
+        border: 1px solid #454D59;
+        border-radius: 2px;
+      }
+      h1 {
+        font-size: 70px;
+        color: #DDE0E2;
+        text-shadow: 1px -1px 50px rgba(36, 54, 69, .6);
+        margin: 1%;
+      }
+      p {
+        font-size: 23px;
+        padding: 0 2.5%;
+        line-height: 1.2em;
+        margin: 2%;
+      }
+      img {
+        margin: 20px 0px 0px 0px;
+        border: 2px solid white;
+        width:  200px;
+        height: 200px;
+        border-radius: 5px;
+        box-shadow: 1px -1px 10px rgba(0, 0, 0, .3);
+      }
+      a {
+        color: #EF1235;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #0260C7;
+      }
+      ul {
+        border: 1px solid #454D59;
+        background: #DEDEDE;
+        margin: 0;
+        list-style-type: none;
+        padding: 1%;
+        border-radius: 2px;
+      }
+      li {
+        font-size: 25px;
+        margin: 0;
+        display: inline;
+        list-style-type: none;
+        padding-right: 90px;
+      }
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 45px;
+          padding: 5px;
+        }
+        p {
+          font-size: 20px;
+        }
+        li {
+          font-size: 18px;
+          padding: 4%;
+        }
+        body {
+          padding-left: 1%;
+          padding-right: 1%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="assets/profile.jpg" alt="Photo at my son's 1st birthday">
+      <h1>Hello World!</h1>
+    </header>
+    <p>
+    My name is Joel. I am a 32 year old dad that has been teaching since 2008, and have decided to persue my dream of being a programmer/developer.
+    </p>
+    <p>
+    I love to study, learn and practice coding every day. I love computers, mechanical keyboards, tmux, vim and ncurses interfaces.
+    I am having a lot of fun learning javascript right now.
+    </p>
+    <ul>
+      <li>
+        <li>
+          <a href="https://github.com/jnbrewster">Github</a>
+        </li>
+        <li>
+          <a href="mailto:j.n.brewster@gmail.com">Email</a>
+        </li>
+        <li>
+          <a href="skype:j.n.brewster">Skype</a>
+        </li>
+      </li>
+    </ul>
+  </body>
+</html>
+
