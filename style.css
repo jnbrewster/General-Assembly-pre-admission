@@ -1,8 +1,6 @@
-* {
+body {
   font-family: 'Helvetica', Times, serif;
   text-align: center;
-}
-body {
   padding-left: 8%;
   padding-right: 8%;
 }
@@ -61,6 +59,10 @@ li {
   list-style-type: none;
   padding-right: 90px;
 }
+
+#social-icons a img {
+
+}
 @media (max-width: 720px) {
   h1 {
     font-size: 50px;
@@ -88,5 +90,4 @@ li {
       font-size: 18px;
       padding: 2%;
     }
-  }
 }
