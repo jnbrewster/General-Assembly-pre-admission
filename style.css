@@ -12,6 +12,7 @@ header {
   background-size: cover;
   border: 1px solid #454D59;
   border-radius: 2px;
+  color: pink;
 }
 h1 {
   font-size: 70px;
@@ -75,5 +76,17 @@ li {
   body {
     padding-left: 1%;
     padding-right: 1%;
+  }
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+    }
+    li {
+      font-size: 18px;
+      padding: 2%;
+    }
   }
 }
