@@ -59,9 +59,10 @@ li {
 }
 
 #social-icons {
-  width: 10px;
-  height: 10px;
+width: 25px;
+height: 25px;
 }
+
 @media (max-width: 720px) {
   h1 {
     font-size: 50px;
