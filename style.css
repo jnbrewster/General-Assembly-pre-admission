@@ -28,7 +28,7 @@ p {
   margin: 2%;
   color: #131F2C;
 }
-img {
+#banner {
   margin: 20px 0;
   border: 2px solid white;
   width:  200px;
@@ -58,8 +58,9 @@ li {
   padding-right: 90px;
 }
 
-#social-icons a img {
-
+#social-icons {
+  width: 10px;
+  height: 10px;
 }
 @media (max-width: 720px) {
   h1 {
@@ -77,15 +78,16 @@ li {
     padding-left: 1%;
     padding-right: 1%;
   }
-  @media (max-width: 480px) {
-    h1 {
-      font-size: 30px;
-    }
-    p {
-      font-size: 18px;
-    }
-    li {
-      font-size: 18px;
-      padding: 2%;
-    }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  li {
+    font-size: 18px;
+    padding: 2%;
+  }
 }
