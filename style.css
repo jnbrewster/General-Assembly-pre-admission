@@ -29,7 +29,7 @@ p {
   color: #131F2C;
 }
 img {
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0;
   border: 2px solid white;
   width:  200px;
   height: 200px;
@@ -47,14 +47,12 @@ a:hover {
 ul {
   border: 1px solid #454D59;
   background: #DEDEDE;
-  margin: 0;
   list-style-type: none;
   padding: 1%;
   border-radius: 2px;
 }
 li {
   font-size: 25px;
-  margin: 0;
   display: inline;
   list-style-type: none;
   padding-right: 90px;
