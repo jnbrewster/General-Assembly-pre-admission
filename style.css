@@ -1,3 +1,9 @@
+  /*TODO: refactor all repeated tags/ids/etc*/
+  /*TODO: Refactor the images into id - can change shadow and add states*/
+  /*TODO: Alter state of monochrome icons with mouseover and onclick*/
+  /*TODO: Change the a and a:hover parts into the png overlay*/
+  /*TODO: Refactor the png icons to the css file*/
+
 body {
   font-family: 'Helvetica', Times, serif;
   text-align: center;
@@ -59,10 +65,9 @@ li {
 }
 
 #social-icons {
-width: 25px;
-height: 25px;
+  /*TODO: Add social-icons size parts here.*/
+  /*TODO: Add mouse over effects for the social-icons*/
 }
-
 @media (max-width: 720px) {
   h1 {
     font-size: 50px;
