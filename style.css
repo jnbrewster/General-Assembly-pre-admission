@@ -1,5 +1,3 @@
-  /*TODO: refactor all repeated tags/ids/etc*/
-  /*TODO: Refactor the images into id - can change shadow and add states*/
   /*TODO: Alter state of monochrome icons with mouseover and onclick*/
   /*TODO: Change the a and a:hover parts into the png overlay*/
   /*TODO: Refactor the png icons to the css file*/
@@ -34,14 +32,7 @@ p {
   margin: 2%;
   color: #131F2C;
 }
-#banner {
-  margin: 20px 0;
-  border: 2px solid white;
-  width:  200px;
-  height: 200px;
-  border-radius: 5px;
-  box-shadow: 1px -1px 10px rgba(0, 0, 0, .3);
-}
+
 a {
   color: #EF1235;
   text-decoration: none;
@@ -63,10 +54,18 @@ li {
   list-style-type: none;
   padding-right: 90px;
 }
-
+#banner {
+  margin: 20px 0;
+  border: 2px solid white;
+  width:  200px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 1px -1px 10px rgba(0, 0, 0, .3);
+}
 #social-icons {
-  /*TODO: Add social-icons size parts here.*/
-  /*TODO: Fix padding */
+  width: 8%;
+  height: 8%;
+  padding: 1%;
   /*TODO: Add mouse over effects for the social-icons*/
     /*TODO: Maybe have it red like the sleeves in the photo*/
 }
