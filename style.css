@@ -66,7 +66,9 @@ li {
 
 #social-icons {
   /*TODO: Add social-icons size parts here.*/
+  /*TODO: Fix padding */
   /*TODO: Add mouse over effects for the social-icons*/
+    /*TODO: Maybe have it red like the sleeves in the photo*/
 }
 @media (max-width: 720px) {
   h1 {
