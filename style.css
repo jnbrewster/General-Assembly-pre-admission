@@ -66,8 +66,14 @@ li {
   width: 8%;
   height: 8%;
   padding: 1%;
+  padding: 1%;
   /*TODO: Add mouse over effects for the social-icons*/
     /*TODO: Maybe have it red like the sleeves in the photo*/
+}
+#social-icons:hover {
+  background: #0162C5;
+  border-radius: 20px;
+  /*TODO: Invert the hover states for the social-icons*/
 }
 @media (max-width: 720px) {
   h1 {
