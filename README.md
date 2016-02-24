@@ -29,4 +29,6 @@
 
 ## Second version
 I didn't like the look of the plain text on the bottom so I changed those out to
-be iconic style buttons.
+be iconic style buttons withmouse over effects.
+
+
