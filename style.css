@@ -1,7 +1,3 @@
-  /*TODO: Alter state of monochrome icons with mouseover and onclick*/
-  /*TODO: Change the a and a:hover parts into the png overlay*/
-  /*TODO: Refactor the png icons to the css file*/
-
 body {
   font-family: 'Helvetica', Times, serif;
   text-align: center;
@@ -67,13 +63,10 @@ li {
   height: 8%;
   padding: 1%;
   padding: 1%;
-  /*TODO: Add mouse over effects for the social-icons*/
-    /*TODO: Maybe have it red like the sleeves in the photo*/
 }
 #social-icons:hover {
-  background: #0162C5;
-  border-radius: 20px;
-  /*TODO: Invert the hover states for the social-icons*/
+  background: rgba(1,100,200,.3);
+  border-radius: 10px;
 }
 @media (max-width: 720px) {
   h1 {
