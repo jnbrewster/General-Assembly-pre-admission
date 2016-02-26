@@ -50,6 +50,8 @@ li {
   list-style-type: none;
   padding-right: 90px;
 }
+/*Don't use IDs in selectors*/
+/*What is this?*/
 #banner {
   margin: 20px 0;
   border: 2px solid white;
@@ -62,13 +64,15 @@ li {
   width: 8%;
   height: 8%;
   padding: 1%;
-  padding: 1%;
 }
 #social-icons:hover {
+  background: #0164C8;
+  /*Fallback background color*/
   background: rgba(1,100,200,.3);
   border-radius: 10px;
 }
 @media (max-width: 720px) {
+  /*How to refactor this - Many h1*/
   h1 {
     font-size: 50px;
     padding: 5px;
