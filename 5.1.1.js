@@ -52,16 +52,44 @@ var threeIfNull = function(num) {
 }
 
 // greatest, which accepts three parameters (x, y, and z), and returns the one with the greatest value. For example, greatest(5, 10, 1) would evaluate to 10.
-var greatest = function(x, y, x) {
-  greatest = a;
+var greatest = function(x, y, z) {
+  greatest = x;
 
-  if (greatest < b) {
-    greatest = b;
+  if (greatest < y) {
+    greatest = y;
   }
-  else if (greatest < c) {
-    greatest = c;
+  else if (greatest < z) {
+    greatest = z;
   }
   else {
     return greatest;
   }
 };
+
+var bigValue = function(w, x, y, z) {
+  biggestNum = w;
+
+  if (biggestNum < x) {
+    biggestNum = x;
+  }
+  else if (biggestNum < y) {
+    biggestNum = y;
+  }
+  else if (biggestNum < z) {
+    biggestNum = z
+  }
+  else biggestNum;
+};
+
+var getLargest = function(a,b,c,d) {
+  if (a > b && a > c && a > d) {
+    return a;
+  }
+  else if (b > a && b > c && b > d) {
+    return b
+  }
+  else if (c > a && c > b && c > d) {
+    return c;
+  }
+  return d;
+}
